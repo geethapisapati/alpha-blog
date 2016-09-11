@@ -1,0 +1,58 @@
+<head>
+  <title>Geetha's Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+<body class="w3-light-grey">
+ 
+  <style type="text/css">
+    body { 
+      background-color :sienna);
+      background-repeat: no-repeat;
+      background-attachment:fixed;
+      background-position:center;
+    } 
+    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+  </style>
+  <div class="w3-content" style="max-width:1400px">
+    <div class="w3-container w3-center w3-padding-32 w3-dark-grey">
+      <h1>MY TRAVEL BLOG</h1>
+      <p>Welcome to Geetha's Travel Blog</p>  
+    </div>
+  </div>
+
+  <div class="w3-margin-top w3-margin-bottom">
+    <div class="w3-container w3-white w3-padding-32">
+      <div class="w3-left w3-round-large w3-margin-right">
+        <%=image_tag("img_avatar_g.jpg", height:200, width: 250)%>
+      </div>
+      <div class="w3-container w3-white">
+        <span>I like to travel and take pictures and blog about the place and the people.</span>
+      </div>
+    </div>  
+  </div>
+
+  <div class="w3-col l6 s8">
+        <!-- Blog entry -->
+    <div class="w3-card-4 w3-margin w3-white">
+      <%=image_tag("sunset.jpg", height: 300, width: 600)%>
+      <div class="w3-container w3-padding-8">
+        <h3><b>SPECTACULAR SUNSET</b></h3>
+        <h5>Sunset in Canada, <span class="w3-opacity">August, 2015</span></h5>
+        <div class="w3-container">
+          <p>This was during our vacation in 2015. In august while it was very hot in Texas, it was so cool in Canada. Enjoyed this sunset while cycling. It is a beautiful place. There are lots of amazing things to do. Cycling is my favorite.</p>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <%= link_to 'About', about_path%>
+  </footer>
+</body>
+
+<br/><br/>
+
+
+
