@@ -5,4 +5,10 @@ Rails.application.routes.draw do
 
   #This gives me all the paths to GET,PATCH, PUT,DELETE,POST
   resources :articles
+
+  get  'signup', to: 'users#new'
+
+  # Two ways you can accomplish the one below:
+  # resources :users, except: [:new]
+  post 'users', to: 'users#create'
 end
