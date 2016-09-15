@@ -1,3 +1,5 @@
-# README
+Validations for User class:
 
-This is the repository for the first alpha-blog app of the complete ruby on rails developer course
+- username must be present and unique
+- email must be present and unique
+- validate email format using regex
